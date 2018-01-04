@@ -1,0 +1,7 @@
+@ECHO OFF
+IF NOT EXIST ACCOUNTS.F GOTO ERROR
+IF NOT EXIST TERMINAL.DLL GOTO ERROR
+TITLE Robco Termlink - Terminal Emulator
+:ERROR
+CLS
+ECHO Unable to start emulator because ACCOUTS.F or TERMINAL.DLL is missing.
