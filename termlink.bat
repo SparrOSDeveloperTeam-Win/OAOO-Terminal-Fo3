@@ -5,3 +5,6 @@ TITLE Robco Termlink - Terminal Emulator
 :ERROR
 CLS
 ECHO Unable to start emulator because ACCOUTS.F or TERMINAL.DLL is missing.
+ECHO.
+SET /P CHOICE="> 
+IF "%CHOICE%"=="SET TERMINAL/INQUIRE" GOTO VERSION
